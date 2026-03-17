@@ -48,6 +48,8 @@ cc_library_static {
         "//frameworks/av/media/libaudioclient/tests",
         "//hardware/interfaces/audio/aidl/vts",
         "//vendor:__subpackages__",
+        "//packages/apps/AxionFx:__subpackages__",
+        "//external/steam-audio:__subpackages__",
     ],
     cflags: [
         "-Wno-#pragma-messages",
